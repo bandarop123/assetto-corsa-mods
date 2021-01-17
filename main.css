@@ -5,7 +5,8 @@ body {
     background-image: linear-gradient(rgb(71, 71, 71),rgb(34, 34, 34));
     background-repeat:no-repeat;
     background-size: cover;
-    height:1800px;
+    height:auto;
+    width: auto;
     margin: 0px;
 }
 
