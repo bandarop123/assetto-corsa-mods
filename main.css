@@ -1,0 +1,141 @@
+
+
+
+body {
+    background-image: linear-gradient(rgb(71, 71, 71),rgb(34, 34, 34));
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:1800px;
+    margin: 0px;
+}
+
+#main_page {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:red;
+    font-weight:bold;
+    padding: 0px;
+    font-size:100px;
+    position: absolute;
+}
+#main_page:hover {
+    color:aliceblue;
+}
+
+.mainFont {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    color: white;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+.theHead {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.login {
+    
+    margin: 2px;
+    color:white;
+     
+}
+.web{
+height: 1200px;
+width:auto;
+
+display:block;
+}
+
+.cars {
+background-color: red;
+height: 500px;
+width:100px;
+}
+#cars_Image {
+    height: 200px;
+    
+    margin: 8px;
+}
+.show {
+    display: none;
+    width: auto;
+    padding: 5px;
+    height:800px;
+    margin-left:150px;
+}
+
+
+
+#demo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:40px;
+    padding: right 0;
+    color:white;
+    text-align:center;
+    background-color: red;
+    font-weight:bold;
+    height: 50px;
+}
+
+#login_p {
+    margin-left:85%;
+    height:150px;
+    width:200px;
+    
+    text-align: left;
+}
+
+.footerr {
+    margin-top:30px;
+    display:block;
+    height:150px;
+    width:auto;
+    background-image: linear-gradient(rgb(71, 71, 71),rgb(49, 49, 49)); 
+   
+}
+#twitter {
+    
+    margin:100px;
+    width:50px;
+    height:100px;
+    margin:50px;
+}
+
+footer {
+    
+    margin-top: 200px;
+    background-color:rgb(43, 43, 43);
+    
+    width:auto;
+    height:200px;
+    
+}
+
+.logo {
+    background-color:rgb(49, 49, 49);
+    height:1200px;
+    width:110px;
+    padding:10px;
+    display: grid;
+    float: left;
+}
+
+.car_logo {
+    background-color:rgb(49, 49, 49);
+    text-align: center;
+    margin:0px;
+    padding:0px;
+
+}
+
+.contaner {
+    background-color:rgb(43, 43, 43);
+    height:auto;
+    width:370px;
+    margin: 10px;
+    display: inline-block;
+    
+   
+}
+
