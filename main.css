@@ -3,9 +3,9 @@
 
 body {
     background-image: linear-gradient(rgb(71, 71, 71),rgb(34, 34, 34));
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    height:auto;
+    background-color:rgb(34, 34, 34) ;
     width: auto;
     margin: 0px;
 }
@@ -60,10 +60,9 @@ width:100px;
 }
 .show {
     display: none;
-    width: auto;
     padding: 5px;
-    height:800px;
     margin-left:150px;
+    
 }
 
 
@@ -87,36 +86,21 @@ width:100px;
     text-align: left;
 }
 
-.footerr {
-    margin-top:30px;
-    display:block;
-    height:150px;
-    width:auto;
-    background-image: linear-gradient(rgb(71, 71, 71),rgb(49, 49, 49)); 
-   
-}
-#twitter {
-    
-    margin:100px;
-    width:50px;
-    height:100px;
-    margin:50px;
-}
 
-footer {
+.footer {
+    margin-top:100px;
+    background-color:rgb(49, 49, 49);
+    height:auto;
+    width: 9%;
+    padding:10px;
     
-    margin-top: 200px;
-    background-color:rgb(43, 43, 43);
-    
-    width:auto;
-    height:200px;
     
 }
 
 .logo {
     background-color:rgb(49, 49, 49);
-    height:1200px;
-    width:110px;
+    height:auto;
+    width: 9%;
     padding:10px;
     display: grid;
     float: left;

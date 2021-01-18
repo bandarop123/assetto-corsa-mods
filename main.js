@@ -7,6 +7,8 @@ const hyundai_cars = document.getElementById("hyundai_cars");
 const chevrolet_cars = document.getElementById("chevrolet_cars");
 const ford_cars = document.getElementById("ford_cars");
 const GMC_cars = document.getElementById("GMC_cars");
+const HUD_G = document.getElementById("HUD");
+const mazda_cars = document.getElementById("mazda_cars");
 
 function hide() {
     nissan_cars.style.display = "none";
@@ -18,7 +20,19 @@ function hide() {
     chevrolet_cars.style.display = "none";
     ford_cars.style.display = "none";
     GMC_cars.style.display = "none";
+    HUD_G.style.display = "none";
+    mazda_cars.style.display = "none";
 
+}
+
+function mazda() {
+    hide();
+    mazda_cars.style.display = "block"
+}
+
+function HUD() {
+    hide();
+    HUD_G.style.display = "block";
 }
 
 function GMC() {
