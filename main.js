@@ -27,58 +27,58 @@ function hide() {
 
 function mazda() {
     hide();
-    mazda_cars.style.display = "block"
+    mazda_cars.style.display = "flex"
 }
 
 function HUD() {
     hide();
-    HUD_G.style.display = "block";
+    HUD_G.style.display = "flex";
 }
 
 function GMC() {
     hide();
-    GMC_cars.style.display = "block";
+    GMC_cars.style.display = "flex";
 }
 
 function ford() {
     hide();
-    ford_cars.style.display = "block";
+    ford_cars.style.display = "flex";
 }
 
 function chevrolet() {
     hide();
-chevrolet_cars.style.display = "block";
+chevrolet_cars.style.display = "flex";
 }
 
 function nissan(){
     hide();
- nissan_cars.style.display = "block";
+ nissan_cars.style.display = "flex";
 }
     
 function toyota() {
     hide();
- toyota_cars.style.display = "block";
+ toyota_cars.style.display = "flex";
 }
 
 function maps() {
     hide();
-    map.style.display = "block";
+    map.style.display = "flex";
 }
 
 function box () {
     hide();
-    boxing.style.display = "block";
+    boxing.style.display = "flex";
 
 }
 
 function kia () {
     hide();
-kia_cars.style.display= "block";
+kia_cars.style.display= "flex";
 }
 
 function hyundai () {
     hide();
-    hyundai_cars.style.display = "block";
+    hyundai_cars.style.display = "flex";
 }
 
 

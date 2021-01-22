@@ -61,9 +61,11 @@ display:block;
     margin: 8px;
 }
 .show {
-    display: none;
+    display: flex;
+    flex-wrap:wrap;
     padding: 5px;
     margin-left:150px;
+   
     
 }
 
@@ -110,9 +112,12 @@ display:block;
 
 .contaner {
     background-color:rgb(43, 43, 43);
-    width:27vw;
-    margin: 10px;
-    display: inline-block;
+    width: 27vw;
+    padding:5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    
     
    
 }
