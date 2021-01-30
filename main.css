@@ -45,14 +45,42 @@ body {
     width:200px;
     color:white;
 }
-#login_p .mainFont {
-    margin:2px;
+#login_p input {
+    margin:10px;
+    width:80%;
+}
+
+.search {
+    margin:10%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.search input {
+    background-color:rgb(34, 34, 34) ;
+    width:80%;
+    border: 0px;
+    font-size: 5vw;
+   color:white;
+   height:7vw;
+   padding:0;
+   margin:0;
+}
+
+.search button {
+    padding:0;
+    margin:0;
+    height: 7vw;
+    border:0;
+    position: absolute;
+    width: 20%;
+    background-color: red;
 }
 
 .web{
 height: 1200px;
 width:auto;
-display:block;
+
 }
 
 
@@ -61,7 +89,7 @@ display:block;
     margin: 8px;
 }
 .show {
-    display: flex;
+    display: none;
     flex-wrap:wrap;
     padding: 5px;
     margin-left:150px;
@@ -107,6 +135,8 @@ display:block;
     text-align: center;
     margin:0px;
     padding:0px;
+    background: none;
+    border: 0;
 
 }
 

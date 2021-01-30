@@ -1,6 +1,6 @@
-let map = document.getElementById("maps");
+const map = document.getElementById("maps");
 const nissan_cars = document.getElementById("nissan_cars");
-let toyota_cars = document.getElementById("toyota_cars");
+const toyota_cars = document.getElementById("toyota_cars");
 const boxing = document.getElementById("package");
 const kia_cars = document.getElementById("kia_cars");
 const hyundai_cars = document.getElementById("hyundai_cars");
@@ -9,6 +9,8 @@ const ford_cars = document.getElementById("ford_cars");
 const GMC_cars = document.getElementById("GMC_cars");
 const HUD_G = document.getElementById("HUD");
 const mazda_cars = document.getElementById("mazda_cars");
+const honda_cars = document.getElementById("honda_cars");
+const subaru_cars = document.getElementById("subaru_cars");
 
 function hide() {
     nissan_cars.style.display = "none";
@@ -22,12 +24,24 @@ function hide() {
     GMC_cars.style.display = "none";
     HUD_G.style.display = "none";
     mazda_cars.style.display = "none";
+    honda_cars.style.display = "none";
+    subaru_cars.style.display = "none";
 
+}
+
+function subaru() {
+    hide();
+    subaru_cars.style.display = "flex";
+}
+
+function honda() {
+    hide();
+    honda_cars.style.display = "flex";
 }
 
 function mazda() {
     hide();
-    mazda_cars.style.display = "flex"
+    mazda_cars.style.display = "flex";
 }
 
 function HUD() {
