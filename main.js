@@ -13,6 +13,11 @@ const honda_cars = document.getElementById("honda_cars");
 const subaru_cars = document.getElementById("subaru_cars");
 
 function hide() {
+    window.scrollTo({
+        top: 300,
+        behavior:'smooth'
+
+    });
     nissan_cars.style.display = "none";
     toyota_cars.style.display = "none";
     map.style.display = "none";

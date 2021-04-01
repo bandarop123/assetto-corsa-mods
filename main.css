@@ -13,8 +13,11 @@ body {
 
 
 .toppage {
+    margin: 10px;
     justify-content: space-between;
     display: flex;
+    background-color: rgb(49, 49, 49);
+    border-radius: 10px;
 }
 
 #main_page {
@@ -22,6 +25,7 @@ body {
     color:red;
     font-weight:bold;
     font-size:8vw;
+    margin: 10px;
 }
 #main_page:hover {
     color:aliceblue;
@@ -43,12 +47,19 @@ body {
 
 #login_p {
     width:200px;
-    color:white;
+    padding: 10px;
 }
 #login_p input {
     margin:10px;
     width:80%;
 }
+
+#login_p button {
+    width:50%;
+    margin:10px;
+}
+
+
 
 .search {
     margin:10%;
@@ -57,7 +68,7 @@ body {
 }
 
 .search input {
-    background-color:rgb(34, 34, 34) ;
+    background-color:rgb(49, 49, 49) ;
     width:80%;
     border: 0px;
     font-size: 5vw;
@@ -159,4 +170,9 @@ width:auto;
      background-color: brown;
     }
 
+}
+
+@keyframes rre{
+0% {background-color: aliceblue; };
+100% {background-color: none; };
 }
