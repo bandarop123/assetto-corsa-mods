@@ -37,6 +37,7 @@ function hide() {
 function subaru() {
     hide();
     subaru_cars.style.display = "flex";
+    
 }
 
 function honda() {
