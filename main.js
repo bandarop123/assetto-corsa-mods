@@ -11,6 +11,7 @@ const HUD_G = document.getElementById("HUD");
 const mazda_cars = document.getElementById("mazda_cars");
 const honda_cars = document.getElementById("honda_cars");
 const subaru_cars = document.getElementById("subaru_cars");
+const dodge_cars = document.getElementById("dodge_cars");
 
 function hide() {
     window.scrollTo({
@@ -31,7 +32,14 @@ function hide() {
     mazda_cars.style.display = "none";
     honda_cars.style.display = "none";
     subaru_cars.style.display = "none";
+    dodge_cars.style.display = "none";
 
+}
+
+function dodge() {
+    hide();
+    dodge_cars.style.display = "flex";
+    
 }
 
 function subaru() {
