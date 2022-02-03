@@ -36,6 +36,23 @@ function hide() {
 
 }
 
+function search() {
+ dodge_cars.style.display = "flex";
+ subaru_cars.style.display = "flex";
+ honda_cars.style.display = "flex";
+ mazda_cars.style.display = "flex";
+ HUD_G.style.display = "flex";
+ GMC_cars.style.display = "flex";
+ ford_cars.style.display = "flex";
+ chevrolet_cars.style.display = "flex";
+ nissan_cars.style.display = "flex";
+ toyota_cars.style.display = "flex";
+ map.style.display = "flex";
+ boxing.style.display = "flex";
+ kia_cars.style.display= "flex";
+ hyundai_cars.style.display = "flex";
+}
+
 function dodge() {
     hide();
     dodge_cars.style.display = "flex";

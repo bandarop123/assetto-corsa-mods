@@ -3,37 +3,27 @@
 
 body {
     background-image: linear-gradient(rgb(71, 71, 71),rgb(34, 34, 34));
-    background-position-x: center;
-    background-repeat: no-repeat;
+    background-repeat:repeat-x;
     background-color:rgb(34, 34, 34) ;
 
-    margin: 0px;
 }
 
 
 
 .toppage {
-    margin: 10px;
+    padding: 10px;
+    height: fit-content;
     justify-content: space-between;
     display: flex;
     background-color: rgb(49, 49, 49);
     border-radius: 10px;
 }
 
-#main_page {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:red;
-    font-weight:bold;
-    font-size:8vw;
-    margin: 10px;
-}
-#main_page:hover {
-    color:aliceblue;
-}
+
 
 .mainFont {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: left;
+    text-align: right;
     color: white;
     font-weight:bold;
     font-size: 3vw;
@@ -42,11 +32,11 @@ body {
 
 .SecondFont {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: left;
+    text-align: right;
     color: white;
     font-weight:bold;
     font-size: 2vw;
-    margin-top: 20px; 
+
 }
 
 .theHead {
@@ -56,22 +46,30 @@ body {
 
 #login_p {
     width:200px;
+    height: fit-content;
     padding: 10px;
+    
 }
 #login_p input {
-    margin:10px;
-    width:80%;
+    margin: 5px;
+    margin-right: 10%;
+    margin-left: 10%;
+    direction: rtl;
+    width: 80%;
 }
 
 #login_p button {
+    margin: 5px;
+    margin-right: 25%;
+    margin-left: 25%;
     width:50%;
-    margin:10px;
 }
 
 
 
 .search {
-    margin:10%;
+    display: flex;
+    
     margin-top:20px;
     margin-bottom:20px;
 }
@@ -92,7 +90,7 @@ body {
     margin:0;
     height: 7vw;
     border:0;
-    position: absolute;
+    
     width: 20%;
     background-color: red;
 }
@@ -105,17 +103,16 @@ width:auto;
 
 
 #cars_Image {
-    width:26vw;
-    margin: 8px;
+    width:25vw;
 }
 .show {
-    position: relative;
-    display: none;
-    flex-wrap:wrap;
+    display: flex;
     justify-content: space-around;
-    padding: 5px;
+    flex-wrap: wrap;
+    padding: 10px;
     animation-name: display;
-    animation-duration: 0.5s;
+    animation-timing-function:initial;
+    animation-duration: 0.4s;
     animation-iteration-count: 1;
 }
 
@@ -141,8 +138,6 @@ width:auto;
 .car_logo {
     background-color:rgb(49, 49, 49);
     text-align: center;
-    margin:0px;
-    padding:0px;
     background: none;
     border: 0;
     width: 9vw;
@@ -155,13 +150,12 @@ width:auto;
 
 .contaner {
     background-color:rgb(43, 43, 43);
-    width: 27vw;
-    padding:5px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
     
+    padding:0.5vw;
+    margin-bottom:1vw;
     border-radius: 10px;
+    width: 25vw;
+    min-height: 30vw;
 }
 
 
@@ -177,12 +171,8 @@ width:auto;
 
 }
 
-@keyframes flashing{
-0% {background-color: white; };
-100% {background-color: none; };
-}
 
 @keyframes display{
- 0% {  margin-right:30px};
- 100% {  margin-right:0px};
-}
+    0% {  margin-right:5%};
+    100% {  margin-right:0%};
+   }

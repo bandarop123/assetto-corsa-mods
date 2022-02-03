@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar">
 
 <head> 
 <meta  charset = "UTF-8" >
@@ -11,31 +11,38 @@
 </head>
 
 <body>
-  
-    
- 
-<div class = "toppage">   
-<div id ="main_page">assetto corsa mods</div>
 
+<div class = "toppage">
 <div id = "login_p">
-    <input type="txet" placeholder="username">
-    <input type="password" placeholder="password">
-    <button >sign in</button>
-</div>
+        <input type="txet" placeholder="أسم المستخدم">
+        <input type="password" placeholder="كلمة المرور">
+        <button style="
+        
+        margin-right: 10px;
+        background-color: aliceblue;
+        ">دخول</button>
+</div>   
+ 
+   
+<div class="mainFont" style="
+font-size: 8vw;
+color: red;
+margin-right: 0%;
+">مودات اسيتو كورسا</div>
 
 </div>
+
 <h1></h1>
 
-<div style="margin:20px;">
-<span class = "mainFont" >you have to install custom shaders patch for the mods to work I recommend using </span>
-<span>
-    <a href="https://assettocorsa.club/content-manager.html" class = "mainFont" >content manager.</a>
-</span>
+<div style="padding:10px;display: flex;justify-content: flex-end;">
+    <a href="https://assettocorsa.club/content-manager.html" class = "mainFont" style="font-size: 2.5vw;">content manager</a>
+    <p></p>
+    <div class = "mainFont" style="font-size:2.5vw; margin-left:10px;">يجب تركيب مود قرافكس لتعمل المودات  </div>
 </div>
 
 <div class = "search">
-    <input class ="search_text" type="text" placeholder = "search..">
-    <button type = "submit"><img style="height: auto;" src="https://img.icons8.com/material-two-tone/50/000000/search-more.png"/></button>
+    <input placeholder = "search..">
+    <button onclick="search()"><img  src="https://img.icons8.com/material-two-tone/50/000000/search-more.png"/></button>
 </div>
 
 
@@ -331,6 +338,15 @@
             <a class = "mainFont" target = "_blank" href="https://twitter.com/kilin_rc/status/1441626499379912705">download</a>
         </div>
 
+        <div class = "contaner">
+            <img id = "cars_Image" src="carsImage/sti 13.jpg" alt="">
+            <span class = "mainFont" >Subaru WRX STi:</span>
+            <a class = "mainFont" target = "_blank" href="https://www.mediafire.com/file/2djgtiyd6dgideq/Subaru+WRX+STi+2016.rar/file">download</a>
+            <span class = "SecondFont" >
+                @Cavi® @gabeIS300 @wiiliam @pred
+            </span>
+        </div>
+
     </div>
 
     <div id = "hyundai_cars" class = "show">
@@ -403,7 +419,13 @@
         <div class = "contaner">
             <img id = "cars_Image" src="carsImage/sierra 2020.jpg" alt="">
             <span class = "mainFont">GMC Sierra 2020 :</span>
-            <a class = "mainFont" target = "_blank" href="https://www.youtube.com/watch?v=FJNyyXjaatg">download</a>
+            <a class = "mainFont" target = "_blank" href="https://www.youtube.com/watch?v=FJNyyXjaatg">video</a>
+        </div>
+
+        <div class = "contaner">
+            <img id = "cars_Image" src="carsImage/suberban.jpg" alt="">
+            <span class = "mainFont">1989 Chevrolet/GMC Suburban:</span>
+            <a class = "mainFont" target = "_blank" href="https://mega.nz/file/y55kzBbT#wjo_Kj5nV5-jnuob9A1Ke5Q6yTZIwLKRdXi_4IS8s7s">download</a>
         </div>
     </div>
 
@@ -512,13 +534,19 @@
          <div class = "contaner">
             <img id = "cars_Image" src="carsImage/r32.jpg" alt="">
             <span class = "mainFont" >1994 NISSAN SKYLINE GT-R V•Spec II :</span>
-            <a class = "mainFont" target = "_blank" href="https://www.youtube.com/watch?v=2W9Dh1OBaHM">download</a>
+            <a class = "mainFont" target = "_blank" href="https://www.youtube.com/watch?v=2W9Dh1OBaHM">video</a>
+         </div>
+
+         <div class = "contaner">
+            <img id = "cars_Image" src="carsImage/ddsn.jpg" alt="">
+            <span class = "mainFont" >SGHH.3 nissan ddsn:</span>
+            <a class = "mainFont" target = "_blank" href="http://www.mediafire.com/file/l2e42mfswnzjr9l/SGHH.3++2.rar/file ">download</a>
          </div>
 
          <div class = "contaner">
             <img id = "cars_Image" src="carsImage/evo4.jpg" alt="">
             <span class = "mainFont" >1996 Mitsubishi Lancer Evolution IV GSR :</span>
-            <a class = "mainFont" target = "_blank" href="https://www.youtube.com/watch?v=mkFSF-PsPVQ">download</a>
+            <a class = "mainFont" target = "_blank" href="https://www.youtube.com/watch?v=mkFSF-PsPVQ">video</a>
          </div>
 
          <div class = "contaner">
@@ -563,18 +591,19 @@
 
         <div class = "contaner">
         <img id="cars_Image" src = "carsImage/camry.jpg" alt="Camry 2006">
-        <span class = "mainFont">DeeLoo camry 2004  :</span>
+        <span class = "mainFont"> camry 2004  :</span>
         <a class = "mainFont" target = "_blank" href = "https://www.mediafire.com/file/pj0f272ip65uyia/DeeLoo_-_camry2004.rar/file">download</a>
+        <span class = "SecondFont">DeeLoo</span>
         <p></p>
         <span class = "mainFont">SGHH CAMRY 2005 :</span>
         <a class = "mainFont" target = "_blank" href = "https://www.mediafire.com/file/b2rz8e0fkorlkdk/sghh_camry_2005.rar/file">download Stock</a>
-        <p></p>
+        
         <a class = "mainFont" target = "_blank" href = "https://www.mediafire.com/file/gp3ifmfdctp1g9k/sghh_camry_so7_2005.rar/file">download so7</a>
-        <p></p>
+        
         <a class = "mainFont" target = "_blank" href = "https://www.mediafire.com/file/n63wjvqghv74n9y/تظليل+كتم+اسود+++كتم+نيكل.rar/file">Windows films</a>
         <p></p>
-        <span class = "mainFont">CAMRY 2004 @eb3.a :</span>
-        <a class = "mainFont" target = "_blank" href = "https://top4top.io/downloadf-13416x1e71-rar.html">download</a>
+        <span class = "mainFont">  CAMRY 2004 :</span>
+        <a class = "mainFont" target = "_blank" href = "https://top4top.io/downloadf-13416x1e71-rar.html">download</a> <strong class = "SecondFont">@eb3.a</strong>
         
         </div>
 
@@ -697,8 +726,8 @@
 
         <div class = "contaner">
             <img id="cars_Image" src="carsImage/khafji.png" alt="khafji">
-            <span class = "mainFont">khafji_0.1</span>
-          <a class = "mainFont" target = "_blank" href = "https://www.mediafire.com/file/y1eh9y7v9lffub8/khafji0.2.rar/file" target="_blank">download</a>
+            <span class = "mainFont">khafji_0.3</span>
+          <a class = "mainFont" target = "_blank" href = "https://mega.nz/file/ixMy0TYa#tSdTlA1EycMcq5iSNiJLWjjmgTiUwo9HwxXHOfoeVqo" target="_blank">download</a>
         </div>
 
         <div class = "contaner">
